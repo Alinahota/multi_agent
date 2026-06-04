@@ -5,7 +5,7 @@
 
 ---
 
-## Quick Start (Professor Grading)
+## Quick Start 
 
 ```bash
 # 1. Create and activate a virtual environment (recommended)
