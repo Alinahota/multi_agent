@@ -1,0 +1,23 @@
+# API keys — NEVER commit this
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Generated output files (submit separately as Deliverable 4)
+CI_Brief_*.md
+ci_run_*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp

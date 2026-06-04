@@ -1,0 +1,21 @@
+# Multi-Agent Competitive Intelligence System
+# Python >= 3.10 required
+#
+# Install with:
+#   pip install -r requirements.txt
+
+# ── Core agentic framework ──────────────────────────────────────────────────────
+crewai==1.9.3
+crewai-tools==1.9.3
+
+# ── LLM backend ───────────────────────────────────────────────────────────────
+# crewai bundles litellm, which routes to OpenAI automatically.
+# No additional OpenAI SDK needed — litellm uses it under the hood.
+
+# ── Research / data-gathering tools ───────────────────────────────────────────
+ddgs>=9.0.0,<10.0.0          # DuckDuckGo web search — free, no API key
+wikipedia>=1.4.0,<2.0.0      # Wikipedia article fetcher
+yfinance>=0.2.40,<2.0.0      # Yahoo Finance financial data
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0,<2.0.0  # Loads OPENAI_API_KEY from .env file
